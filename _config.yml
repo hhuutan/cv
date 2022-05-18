@@ -1,0 +1,107 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Tan Ho Huu
+title: Software Engineer
+email: huutan.dev@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  hhuutan
+linkedin_username: hhuutan
+
+# About Section
+about_title: Brief
+about_profile_image: images/profile-1.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Dedicated and efficient Software Engineer with 4+ years experience in software development from planning, designing to implementing, web applications and data synchronization.
+
+  Insightful knowledge of .NET technology, OOP Analysis, SOLID Principle.
+
+  Quickly learn and master new technologies, successful working in both team and self-directed settings.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+            
+      - layout: left
+        title: NFQ Asia
+        sub_title: Software Engineering (Mid+)
+        caption: Aug 2021 - Present
+        description: | # this will include new lines to allow paragraphs
+            Participated in developing a startup project in the E-commerce domain from planning, designing, implementing to deploying the application.
+            
+            Directly communicates in both technical/business domain discussions with the client's development team in Germany.
+
+            Researched many new technologies such as Azure Function 4 (.NET 6), CosmosDB, MySQL, Azure Service Bus,... to apply to the project.
+
+            Supported team members in debugging and exploring their abilities, helping them better on coding and thinking skills.
+
+
+            <mark>.NET 6</mark> <mark>Azure Function 4</mark> <mark>CosmosDB</mark> <mark>MySQL</mark> <mark>MySQL</mark> <mark>Azure DevOps</mark>
+            <mark>Azure Service Bus</mark> <mark>Azure Blob Storage</mark> <mark>Docker</mark> <mark>Git</mark>
+
+      - layout: left
+        title: FPT Software
+        sub_title: Software Engineering (Juni, Mid)
+        caption: May 2018 - May 2019
+        description: | # this will include new lines to allow paragraphs
+            Was a Junior developer after graduation, I had a good start in my career here under the guidance of experienced people, have been involved in potential projects as well as access to new technologies, potential customers.
+
+            Supported the tech lead in migrating the source code from old technology to a new one.
+
+            Was a key member of development team, 
+
+            Independent worked directly in communication and development with a Malaysian customer.
+
+            Participated in many projects both web applications and desktop applications, supporting many customers to develop their products, complete on schedule and goals.
+
+
+            <mark>ASP.NET 4.5</mark> <mark>ASP.NET Core 2/3</mark> <mark>Java</mark> <mark>Python</mark> <mark>WPF</mark> <mark>Winform</mark>
+            <mark>Extend</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>JQuery</mark> <mark>Entity Framework</mark>
+            <mark>LINQ</mark> <mark>OracleDB</mark> <mark>MS SQL</mark> <mark>Posgresql</mark> <mark>MongoDB</mark> <mark>Elastic Search</mark>
+            <mark>Redis Cache</mark> <mark>Git</mark> <mark>SVN</mark> <mark>Azure DevOps</mark> <mark>Jira</mark> <mark>Redmine</mark>
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Cantho University
+        caption: 2014 - 2018
+        sub_title: BSc Information System
+        description: | # this will include new lines to allow paragraphs
+          During my time at school I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
+
+          I was also honored to receive the 2016 Outstanding Student Award, named in the school's list of excellent students that year, as well as receive a lot of respect and love from friends and teachers.
+
+          I have spent a lot of my free time as a volunteer for volunteer programs with many humanistic meanings, helping the community such as green summer (Mùa hè xanh), red journey (Hành trình đỏ), the mid-autumn festival for children (Trung thu cho em), ...
+
+  - title: When I am not a Developer
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering some of my other interests and hobbies are:
+      - Traveling
+      - Riding
+      - Meditation
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
