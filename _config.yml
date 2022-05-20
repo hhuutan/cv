@@ -90,63 +90,6 @@ content:
     layout: list
     content:
       - layout: left
-        title: Content Parsing Engine
-        sub_title: Jan 2019 – Aug 2019
-        caption: 17 members, USA
-        description: |
-          A web application with a medium backend system that makes it easier for customers to extract data from multiple types of documents from non-copyable like images, PDF,... to copyable based on Abbyy FineReader Engine.
-
-          Using the machine learning algorithms to catogirize the documents and synchronizing them to the cloud storages, like Kintone, DrChrono, QuickBooks, …
-
-          My responsibility:
-          <ul>
-            <li>Discussed with BA & the Techlead to come out the solution for the features related to the UI, user activities and data synchronization.</li>
-            <li>Did planning, designing database, code structure and implement the solution with less support from others.</li>
-            <li>Worked independent to create the adapters to synchronize data from the system into Cloud Storages such as Kintone, QuickBooks, Google Drive,...</li>
-          </ul>
-
-          Technologies: <mark>ASP.NET Core 2.2</mark>, <mark>ABBYY SDK</mark>, <mark>RabbitMQ</mark>, <mark>Redis Cache</mark>, <mark>Elastic Search</mark>, <mark>MSSQL</mark>, <mark>MongoDB</mark>, <mark>JQuery</mark>, <mark>Bootstrap 3</mark>, <mark>Docker</mark>
-
-      - layout: left
-        title: Floaters
-        sub_title: Feb 2020 - Feb 2021
-        caption: 10 members, Malaysian
-        description: |
-          Our team was developing a system to manage floaters over the sea of Petronas. 
-          
-          This systems allows user to track real-time status of each platform. 
-          It also provides the future plan for inspecting if any one of these having issue.
-          Excel/PDF export functionality allows user to export data from the system. This system uses IP frameworks of Petronas.
-
-          My responsibility:
-          <ul>
-            <li>Directly worked with the client team.</li>
-            <li>Implemented functions giving by team lead and BA for both frontend and backend side.</li>
-            <li>In tight collaboration with BA, studied all the project requirements to design and implement solution.</li>
-            <li>Managed, developed and delivered complex data migration.</li>
-          </ul>
-
-          Technologies: <mark>ASP MVC 4</mark>, <mark>EF</mark>, <mark>JQuery</mark>, <mark>MSSQL</mark>, <mark>Azure DevOps</mark>
-
-      - layout: left
-        title: Go Dashboard
-        sub_title: Oct 2020 - Feb 2021
-        caption: 10 members, Malaysian
-        description: |
-          A web application that monitor the output of oil and gas extraction sites around the world.
-          This system gets the data from other extenal api to calculate, analysic and show the numbers, charts and info cards to 
-          the dashboard UI almost realtime.
-
-          My responsibility:
-          <ul>
-            <li>Directly worked with the client team.</li>
-            <li>In tight collaboration with BA, team leader to build the backend application from scratch following the user stories.</li>
-            <li>Studied all the project requirements to design the database, function details and implement solutions.</li>
-          </ul>
-
-          Technologies: <mark>ASP MVC 4</mark>, <mark>EF</mark>, <mark>JQuery</mark>, <mark>MSSQL</mark>, <mark>Azure DevOps</mark>
-
-      - layout: left
         title: Data Exchange Engine
         sub_title: Oct 2021 - Present
         caption: 7 members, Germany
@@ -167,6 +110,63 @@ content:
 
           Technologies: <mark>.NET 6</mark>, <mark>Azure Function 4</mark>, <mark>CosmosDB</mark>, <mark>MySQL</mark>, <mark>MySQL</mark>, <mark>Azure DevOps</mark>, 
           <mark>Azure Service Bus</mark>, <mark>Azure Blob Storage</mark>, <mark>Docker</mark>
+
+      - layout: left
+        title: Go Dashboard
+        sub_title: Oct 2020 - Feb 2021
+        caption: 7 members, Malaysian
+        description: |
+          A web application that monitor the output of oil and gas extraction sites around the world.
+          This system gets the data from other extenal api to calculate, analysic and show the numbers, charts and info cards to 
+          the dashboard UI almost realtime.
+
+          My responsibility:
+          <ul>
+            <li>Directly worked with the client team.</li>
+            <li>In tight collaboration with BA, team leader to build the backend application from scratch following the user stories.</li>
+            <li>Studied all the project requirements to design the database, function details and implement solutions.</li>
+          </ul>
+
+          Technologies: <mark>ASP MVC 4</mark>, <mark>EF</mark>, <mark>JQuery</mark>, <mark>MSSQL</mark>, <mark>Azure DevOps</mark>
+
+      - layout: left
+        title: Floaters
+        sub_title: Feb 2020 - Feb 2021
+        caption: 5 members, Malaysian
+        description: |
+          Our team was developing a system to manage floaters over the sea of Petronas. 
+          
+          This systems allows user to track real-time status of each platform. 
+          It also provides the future plan for inspecting if any one of these having issue.
+          Excel/PDF export functionality allows user to export data from the system. This system uses IP frameworks of Petronas.
+
+          My responsibility:
+          <ul>
+            <li>Directly worked with the client team.</li>
+            <li>Implemented functions giving by team lead and BA for both frontend and backend side.</li>
+            <li>In tight collaboration with BA, studied all the project requirements to design and implement solution.</li>
+            <li>Managed, developed and delivered complex data migration.</li>
+          </ul>
+
+          Technologies: <mark>ASP MVC 4</mark>, <mark>EF</mark>, <mark>JQuery</mark>, <mark>MSSQL</mark>, <mark>Azure DevOps</mark>
+
+      - layout: left
+        title: Content Parsing Engine
+        sub_title: Jan 2019 – Aug 2019
+        caption: 17 members, USA
+        description: |
+          A web application with a medium backend system that makes it easier for customers to extract data from multiple types of documents from non-copyable like images, PDF,... to copyable based on Abbyy FineReader Engine.
+
+          Using the machine learning algorithms to catogirize the documents and synchronizing them to the cloud storages, like Kintone, DrChrono, QuickBooks, …
+
+          My responsibility:
+          <ul>
+            <li>Discussed with BA & the Techlead to come out the solution for the features related to the UI, user activities and data synchronization.</li>
+            <li>Did planning, designing database, code structure and implement the solution with less support from others.</li>
+            <li>Worked independent to create the adapters to synchronize data from the system into Cloud Storages such as Kintone, QuickBooks, Google Drive,...</li>
+          </ul>
+
+          Technologies: <mark>ASP.NET Core 2.2</mark>, <mark>ABBYY SDK</mark>, <mark>RabbitMQ</mark>, <mark>Redis Cache</mark>, <mark>Elastic Search</mark>, <mark>MSSQL</mark>, <mark>MongoDB</mark>, <mark>JQuery</mark>, <mark>Bootstrap 3</mark>, <mark>Docker</mark>
 
   - title: When I am not a Developer
     layout: text
