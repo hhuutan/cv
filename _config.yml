@@ -47,9 +47,23 @@ content:
     layout: list
     content:    
       - layout: left
+        title: Hansen Technologies
+        sub_title: Software Engineer
+        caption: Jun 2022 - Present
+        description: |
+            <ul>
+              <li>In tight collaboration with the development team to planning, designing and implement new features of the application.</li>
+              <li>Learning and reseaching new technologies to resolve problems.</li>
+              <li>Do unit tests, interact with other development roles to maintain current features.</li>
+              <li>Technologies:
+                <mark>WCF</mark> <mark>Angular 14</mark> <mark>OracleDB</mark> <mark>TFS</mark>
+              </li>
+            </ul>
+
+      - layout: left
         title: NFQ Asia
-        sub_title: Software Engineering (Mid+)
-        caption: Aug 2021 - Present
+        sub_title: Software Engineer
+        caption: Aug 2021 - May 2022
         description: |
             <ul>
               <li>Participated in developing a startup project in the E-commerce domain from planning, designing, implementing to deploying the application.</li>
@@ -66,8 +80,8 @@ content:
 
       - layout: left
         title: FPT Software
-        sub_title: Software Engineering (Juni, Mid)
-        caption: May 2018 - May 2019
+        sub_title: Junior Software Engineer
+        caption: May 2018 - May 2021
         description: |
           <ul>
             <li>Was a Junior developer after graduation, I had a good start in my career here under the guidance of experienced people, have been involved in potential projects as well as access to new technologies, potential customers.</li>
@@ -122,12 +136,12 @@ content:
 
           My responsibility:
           <ul>
-            <li>Directly worked with the client team.</li>
-            <li>In tight collaboration with BA, team leader to build the backend application from scratch following the user stories.</li>
+            <li>In tight collaboration with BA, team leader on the onsite to build the backend application from scratch following the user stories.</li>
+            <li>Cooperation with the frontend team on the tickets to planning, findout solutions and estimations.</li>
             <li>Studied all the project requirements to design the database, function details and implement solutions.</li>
           </ul>
 
-          Technologies: <mark>ASP MVC 4</mark>, <mark>EF</mark>, <mark>JQuery</mark>, <mark>MSSQL</mark>, <mark>Azure DevOps</mark>
+          Technologies: <mark>ASP.NET CORE API2</mark>, <mark>Dapper</mark>, <mark>Posgresql</mark>, <mark>Azure DevOps</mark>
 
       - layout: left
         title: Floaters
